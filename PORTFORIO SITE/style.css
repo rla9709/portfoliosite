@@ -1,0 +1,39 @@
+header {
+  border-bottom: 1px solid gray;
+  width: 1560px;
+  height: 60px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 1px darkgray;
+}
+
+.pagename {
+  display: flex;
+  text-align: left;
+  padding: 17px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+
+ul {
+  display: flex;
+  position: relative;
+  left: 1090px;
+  bottom: 55px;
+  box-sizing: inherit;
+  width: 100px;
+  list-style-type: none;
+}
+
+ul > li {
+  margin-left: 25px;
+  padding: 0px;
+  font-size: 20px;
+  cursor: pointer;
+  color: darkgray;
+}
+
+li:hover {
+  color: black;
+}
