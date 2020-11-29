@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Y00N_VIEW</title>
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h2 class="container-left">Y00N_VIEW</h2>
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>PORTFOLIO</li>
+          <li>SKILLS</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 66px;
+  border-bottom: 2px solid gray;
+  box-shadow: 1px black;
+}
+
+.container-left {
+  float: left;
+  margin-left: 10px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul > li {
+  float: left;
+  margin: 0 15px;
+  padding-top: 23px;
+  cursor: pointer;
+  color: gray;
+}
+
+li:hover {
+  color: black;
+}
