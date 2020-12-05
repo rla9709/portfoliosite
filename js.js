@@ -14,3 +14,11 @@ function carousel() {
   text[textSlide - 1].style.display = "block";
   setTimeout(carousel, 4000);
 }
+
+
+const navbar_Btn = document.querySelector('.navbar-Btn');
+const navbar_Content = document.querySelector('.navbar-content');
+
+navbar_Btn.addEventListener('click', () => {
+  navbar_Content.classList.toggle('active');
+});
