@@ -133,33 +133,48 @@ body {
   color: gray;
 }
 
-.introduce_text {
+.introduce_txt {
   font-size: 1.5rem;
 }
 
-.content {
+.introduce2 {
   display: flex;
-  widows: 100%;
+  justify-content: space-around;
+  width: 100%;
   margin-top: 100px;
-  margin-left: 350px;
+  padding: 0 30px;
   font-family: "nanum Gothic", sans-serif;
 }
 
-.content > p {
-  width: 100%;
-  justify-content: space-around;
-}
-
-.content-left {
+.introduce2_left {
   font-size: 4rem;
   font-weight: bold;
   line-height: 70px;
+  display: flex;
+  flex-direction: column;
 }
 
-.content-right {
+.introduce2_right {
   font-size: 1.5rem;
   margin-top: 20px;
   line-height: 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduce2_txt {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    #ff7c4e 50%
+  );
+  background-size: 200%;
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.introduce2_txt:hover {
+  background-position: -100% 0;
 }
 
 @media screen and (max-width: 890px) {
